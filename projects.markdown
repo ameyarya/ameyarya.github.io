@@ -4,23 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-## Scout Browser Extension
-*JavaScript, Gulp.js*
-<br/>
-Nov 2020
-+ Developed a chrome browser extension for annual Hackathon using Javascript and Gulp.js and won best tech project
-+ Included features like Deployment Info, DOM element tag highlight, Autofill job page and quick JIRA routing
-
-## Medician
-*Android, Java, Kotlin, Firebase*
-<br/>
-Jun 2020
-+ Developed a full-featured Medical needs app for Android Smartphones and Tablets
-+ Used No-SQL Firebase for direct access to DB and real-time database CRUD operations
-+ Included features like Doctors Near Me using Google API and implemented country-wise COVID-19 tracker
-+ App lets user to request a new appointment and add reminders, displayed on the Dashboard when logged in
-
 ## Fantasy Premier League
+[`Live Demo`](http://fpl-react.herokuapp.com/)
+[`GitHub`](https://github.com/ameyarya/Fantasy-Premier-League-FE)
+
 *React-Redux, Java Spring-Boot, RESTful API, MySQL*
 <br/>
 Apr 2020
@@ -29,7 +16,22 @@ assign points to the players based on their real-world performance and run simul
 + Used ReactJS for front end and Java Spring Boot as backend to do CRUD operations on MySQL via RESTful APIs
 + Deployed both front end and backend on cloud services Heroku to get optimal performance, flexible for other cloud services
 
+## Medician
+[`Live Demo`](https://play.google.com/store/apps/details?id=com.medician)
+[`GitHub`](https://github.com/ameyarya/Medician)
+
+*Android, Java, Kotlin, Firebase*
+<br/>
+Jun 2020
++ Developed a full-featured Medical needs app for Android Smartphones and Tablets
++ Used No-SQL Firebase for direct access to DB and real-time database CRUD operations
++ Included features like Doctors Near Me using Google API and implemented country-wise COVID-19 tracker
++ App lets user to request a new appointment and add reminders, displayed on the Dashboard when logged in
+
 ## White Board
+[`Live Demo`](https://boiling-ridge-17955.herokuapp.com/)
+[`GitHub`](https://github.com/ameyarya/WhiteBoard-FE)
+
 *Angular, Node.js, RESTful API, MongoDB*
 <br/>
 Jan 2020
@@ -38,6 +40,8 @@ Jan 2020
 + This is part of the course CS5610 at Khoury College of Computer Sciences
 
 ## Image Editor
+[`GitHub`](https://github.com/ameyarya/PhotoEditor)
+
 *Java, Swing, IntelliJ*
 <br/>
 Oct 2019
@@ -46,6 +50,8 @@ Oct 2019
 + Designed a user interface using java swing containing the options to load and save edited and generated images
 
 ## Mail Washer
+[`GitHub`](https://github.com/ameyarya/SpamFilter)
+
 *Java, Swing, IntelliJ*
 <br/>
 Nov 2019
@@ -53,3 +59,10 @@ Nov 2019
 + Trained and Tested ML model on datasets with 10K entries and with a train-test ratio of 9:1 after preprocessing data
 + Used 2500 most frequent words and thereby created features and data dictionary to train and test the ML model
 + Predicted spam emails with an accuracy of 97.69%, on-going work on how this accuracy can be improved further
+
+## Scout Browser Extension
+*JavaScript, Gulp.js*
+<br/>
+Nov 2020
++ Developed a chrome browser extension for annual Hackathon using Javascript and Gulp.js and won best tech project
++ Included features like Deployment Info, DOM element tag highlight, Autofill job page and quick JIRA routing
