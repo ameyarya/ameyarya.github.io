@@ -9,6 +9,8 @@ layout: home
 
 Hello! I'm Amey, Graduate student at Northeastern University, specializing in Software Engineering with focus on Web & Mobile Developement.
 
-I am a Software Engineer with a proven track record and overall experience of 3+ years in Software Development in both Recruitment and Banking domain I have worked with cross-functional teams while demonstrating excellent project management, leadership, and interpersonal skills. I am working extensively in Web and Mobile development, not just professionally. I have also been in the entire SDLC while adhering to the Agile methodologies and protocols.
+I'm an enthusiastic and result-oriented full-stack web developer with extensive software engineering and project management experience. Over the past 4 years, I have architected and led the development of web projects using powerful web tools. I have full-stack software development experience across the board from Desktop WPF applications, Mobile Development with Android, and Web Development utilizing React-Redux, Python Flask and AngularJS and HTML / CSS / Javascript and various database technologies ranging from SQLite, MySQL, and distributed NoSQL solutions utilizing MongoDB.
 
-In my free time I enjoy traveling, trying different cuisines, and most importantly spending time with friends and family!
+I excel at developing maintainable solutions for complex software problems. The more complex a problem is, the more I'm intrigued. I take pride in tackling problems that I don't know how to solve by utilizing my powerful knowledge of object-orientation design patterns, a keen eye for details, and the high standards that I impose upon myself.
+
+Feel free to reach out if you have an enticing role that my skills, experience, and passion for software engineering would be a good fit for at arya.am@northeastern.edu 

@@ -22,12 +22,14 @@ title: Amey Arya
 email: arya.am@northeastern.edu
 description: >- # this means to ignore newlines until "baseurl:"
   I am an incoming Software Engineering Intern at LinkedIn.
-  I am pursuing Master's in Computer Science at Northeastern university with focus on Software Development.
   Ask me about my work experience, the master's degree program, my projects, or anything else.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: am3y
+
 github_username:  ameyarya
+instagram_username: _am3y
+facebook_username: amey.arya
+linkedin_username: ameyarya
 
 # Build settings
 markdown: kramdown
