@@ -4,6 +4,17 @@ title: Projects
 permalink: /projects/
 ---
 
+## Covey Town
+[`Live Demo`](https://hardcore-minsky-b004d2.netlify.app/)
+[`GitHub`](https://github.com/mohammedowais2492/covey.town)
+
+*React.js, TypeScript, Node.js, Socket.io*
+<br/>
+Apr 2021
++ Added a text chat feature to an open-source multiplayer online game using socket.io and enhanced the playing experience
++ Both private and public chat in a room was possible using the socket.io library functions
++ Nearby players could be prompted to chat using euclidian distance on the 2D map
+
 ## Fantasy Premier League
 [`Live Demo`](http://fpl-react.herokuapp.com/)
 [`GitHub`](https://github.com/ameyarya/Fantasy-Premier-League-FE)
