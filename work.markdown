@@ -7,8 +7,8 @@ permalink: /work/
 ## LinkedIn, Sunnyvale
 Jun 2021 - Aug 2021
 <br/>
-*Software Engineering [in]tern*
-+ I am an incoming Software Engineering Intern in the Messaging Platform Team at LinkedIn
+*Software Engineering Intern*
++ I am working as a Software Engineering Intern in the Flagship Productivity Tools (FPT) Team at LinkedIn
 
 ## Northeastern University, Boston
 Jan 2021 - Apr 2021
