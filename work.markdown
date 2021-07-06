@@ -5,10 +5,11 @@ permalink: /work/
 ---
 
 ## LinkedIn, Sunnyvale
-Jun 2021 - Aug 2021
+Jun 2021 - Present
 <br/>
 *Software Engineering Intern*
-+ I am working as a Software Engineering Intern in the Flagship Productivity Tools (FPT) Team at LinkedIn
++ Developed a stand-alone Multiproduct for the tools teams to monitor pre and post commit failures using Kafka consumer
++ Utilized events from Kafka and developed a Slack bot to notify the on-calls about failures thereby saving 1040 dev hours a year
 
 ## Northeastern University, Boston
 Jan 2021 - Apr 2021
