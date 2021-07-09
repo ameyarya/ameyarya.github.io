@@ -5,9 +5,9 @@ permalink: /education/
 ---
 
 ## Northeastern University, Boston, MA
-*Candidate for a Master of Science in Computer Science*
-+ Sep 2019 — Present 
-+ GPA: 3.83
+*Master of Science in Computer Science*
++ Sep 2019 — Dec 2021 
++ GPA: 3.77
 
 ## Rajiv Gandhi Technical University, Bhopal, India 
 *Bachelor of Engineering in Information Technology*
