@@ -8,8 +8,8 @@ permalink: /work/
 Jun 2021 - Present
 <br/>
 *Software Engineering Intern*
-+ Developed a stand-alone Multiproduct for the tools teams to monitor pre and post commit failures using Kafka consumer
-+ Utilized events from Kafka and developed a Slack bot to notify the on-calls about failures thereby saving 1040 dev hours a year
++ Developed a multiproduct using Python Flask framework to report post-commit failures using Kafka consumer
++ Used Slack Bot API to notify domain on-calls on slack about failures, estimated to save 1040 dev hours per year
 
 ## Northeastern University, Boston
 Jan 2021 - Apr 2021
