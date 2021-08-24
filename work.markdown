@@ -5,11 +5,11 @@ permalink: /work/
 ---
 
 ## LinkedIn, Sunnyvale
-Jun 2021 - Present
+Jun 2021 - Aug 2021
 <br/>
 *Software Engineering Intern*
-+ Developed a multiproduct using Python Flask framework to report post-commit failures using Kafka consumer
-+ Used Slack Bot API to notify domain on-calls on slack about failures, estimated to save 1040 dev hours per year
++ Developed an event-driven tool using Python Flask to report post-commit failures using Kafka consumer, estimated to save ~1040 dev-hrs/year
++ Utilized SlackBot API to build custom message and alerted POCs in real time, thereby improving CICD pipeline health
 
 ## Northeastern University, Boston
 Jan 2021 - Apr 2021
@@ -18,7 +18,7 @@ Jan 2021 - Apr 2021
 + Undertook office hours to aid app development using Android Studio for over 90 students using Java or Kotlin and Firebase
 + Graded course assignments based on best coding practices, and helped students develop robust and scalable native android apps
 
-## Scout Exchange LLC, Boston
+## Aquent, Boston
 Jul 2020 — Jan 2021
 <br/>
 *Software Engineer Co-op*
