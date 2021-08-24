@@ -21,8 +21,7 @@
 title: Amey Arya
 email: arya.am@northeastern.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am an incoming Software Engineering Intern at LinkedIn.
-  Ask me about my work experience, the master's degree program, my projects, or anything else.
+  Ask me about my work experience, the master's degree program in US, my projects, or anything else
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
