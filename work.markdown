@@ -4,12 +4,20 @@ title: Work
 permalink: /work/
 ---
 
-## LinkedIn, Sunnyvale
-Jun 2021 - Aug 2021
+## LinkedIn, Mountain View, CA
+Aug 2024 - Present
 <br/>
-*Software Engineering Intern*
-+ Developed an event-driven tool using Python Flask to report post-commit failures using Kafka consumer, estimated to save ~1040 dev-hrs/year
-+ Utilized SlackBot API to build custom message and alerted POCs in real time, thereby improving CICD pipeline health
+*Senior Software Engineer*
++ Part of the Infrastructure iOS team, driving initiatives to design and optimize high-performance solutions that enhance application reliability and user experience. Focused on developing and refining solutions to boost app performance and reliability.
+
+## LinkedIn, Sunnyvale, CA
+Jan 2022 - Sep 2024
+<br/>
+*Software Engineer*
++ Contributed to a major infrastructure overhaul of LinkedIn’s flagship product (SDUI), focusing on the Developer Experience (DevX) track by developing custom validation scripts for linting and dependency detection, optimizing the development workflow.
++ Engineered a comprehensive full-stack tool for managing experimental code across all platforms, ensuring high code quality and accelerating feature delivery through robust testing frameworks.
++ Spearheaded the design and implementation of a flagship operational metrics aggregation tool that streamlined site operations and enhanced real-time decision-making.
++ Led the development of a mobile crash anomaly detection and alerting system, significantly improving site speed and availability by proactively identifying and addressing performance issues.
 
 ## Northeastern University, Boston
 Jan 2021 - Apr 2021
