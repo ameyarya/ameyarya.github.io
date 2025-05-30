@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Hello! I'm Amey, Graduate student at Northeastern University, specializing in Software Engineering with focus on Web & Mobile Developement.
+Hello! I'm Amey, a Senior Software Engineer at LinkedIn, specializing in software engineering with a focus on infrastructure, app performance, and reliability. I have a strong background in web and mobile development.
 
 I'm an enthusiastic and result-oriented full-stack web developer with extensive software engineering and project management experience. Over the past 4 years, I have architected and led the development of web projects using powerful web tools. I have full-stack software development experience across the board from Desktop WPF applications, Mobile Development with Android, and Web Development utilizing React-Redux, Python Flask and AngularJS and HTML / CSS / Javascript and various database technologies ranging from SQLite, MySQL, and distributed NoSQL solutions utilizing MongoDB.
 
