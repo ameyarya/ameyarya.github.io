@@ -1,14 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-Hello! I'm Amey, a Senior Software Engineer at LinkedIn, specializing in software engineering with a focus on infrastructure, app performance, and reliability. I have a strong background in web and mobile development.
+San Francisco Bay Area | [amey.arya51@gmail.com](mailto:amey.arya51@gmail.com) | (857) 919-7853 | [LinkedIn](https://linkedin.com/in/ameyarya)
 
-I'm an enthusiastic and result-oriented full-stack web developer with extensive software engineering and project management experience. Over the past 4 years, I have architected and led the development of web projects using powerful web tools. I have full-stack software development experience across the board from Desktop WPF applications, Mobile Development with Android, and Web Development utilizing React-Redux, Python Flask and AngularJS and HTML / CSS / Javascript and various database technologies ranging from SQLite, MySQL, and distributed NoSQL solutions utilizing MongoDB.
-
-I excel at developing maintainable solutions for complex software problems. The more complex a problem is, the more I'm intrigued. I take pride in tackling problems that I don't know how to solve by utilizing my powerful knowledge of object-orientation design patterns, a keen eye for details, and the high standards that I impose upon myself.
-
-Feel free to reach out if you have an enticing role that my skills, experience, and passion for software engineering would be a good fit for at arya.am@northeastern.edu.
+iOS engineer with 7+ years of experience building UIKit and SDUI frameworks, optimizing app performance, and implementing real-time observability using OpenTelemetry and RUM. Proven track record of accelerating developer velocity and reducing release friction through infrastructure-driven innovation. Passionate about delivering seamless user experiences and scalable engineering tools.
