@@ -4,4 +4,4 @@ layout: home
 
 San Francisco Bay Area | [amey.arya51@gmail.com](mailto:amey.arya51@gmail.com) | (857) 919-7853 | [LinkedIn](https://linkedin.com/in/ameyarya)
 
-iOS engineer with 7+ years of experience building SwiftUI, UIKit and SDUI frameworks, optimizing app performance, and implementing real-time observability using OpenTelemetry and RUM. Proven track record of accelerating developer velocity and reducing release friction through infrastructure-driven innovation. Passionate about delivering seamless user experiences and scalable engineering tools.
+Hi, thanks for visiting. I am an iOS engineer that balances seamless design with scalable engineering. With a strong foundation in SwiftUI, UIKit, and server-driven UI, I focus on frameworks and tools that make apps faster, more reliable, and easier to evolve. My work spans performance optimization, real-time observability, and infrastructure that empowers teams to deliver features with confidence. I care about both the user experience on the surface and the developer experience under the hood.
