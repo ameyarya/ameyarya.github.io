@@ -21,13 +21,11 @@
 title: Amey Arya
 email: amey.arya51@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  iOS engineer specializing in UIKit and SDUI frameworks, performance optimization, and observability tools
+  Software engineer specializing in iOS development and architectural design, performance optimization, and observability tools at scale
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  ameyarya
-# instagram_username: _am3y
-# facebook_username: amey.arya
 linkedin_username: ameyarya
 
 # Build settings
