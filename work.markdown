@@ -4,8 +4,8 @@ title: Work
 permalink: /work/
 ---
 
-### LinkedIn — Senior iOS Engineer
+### LinkedIn — Senior Software Engineer
 Jan 2022 – Present | Mountain View, CA
 
-### Tata Consultancy Services — iOS Engineer
+### Tata Consultancy Services — Software Engineer
 Mar 2016 – Jul 2019 | Pune, India
