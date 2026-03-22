@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amey Arya — iOS Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f2ec;
+      --ink: #1a1814;
+      --muted: #6b6660;
+      --accent: #c94a2d;
+      --rule: #d9d4cb;
+      --card: #edeae3;
+      --mono: 'DM Mono', monospace;
+      --serif: 'DM Serif Display', serif;
+      --sans: 'DM Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-weight: 300;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 4rem;
+      backdrop-filter: blur(8px);
+    }
+
+    .nav-logo {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      letter-spacing: 0.02em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--accent); }
+
+    /* HERO */
+    .hero {
+      padding: 7rem 4rem 5rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .hero-label {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      line-height: 1.05;
+      color: var(--ink);
+      margin-bottom: 2rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-bio {
+      max-width: 580px;
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-contacts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+    }
+
+    .hero-contacts a {
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 2px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .hero-contacts a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* SECTION */
+    section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 4rem 4rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 2.5rem;
+    }
+
+    /* WORK */
+    .job {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 1rem;
+      padding: 1.8rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .job:last-child { border-bottom: none; }
+
+    .job-company {
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      color: var(--ink);
+    }
+
+    .job-title {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 0.3rem;
+    }
+
+    .job-meta {
+      text-align: right;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: var(--card);
+      border-radius: 4px;
+      padding: 1.8rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
+
+    .project-name {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-stack {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 0.8rem;
+    }
+
+    .project-desc {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .project-links {
+      margin-top: 1.2rem;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .project-links a {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 1px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .project-links a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* EDUCATION */
+    .edu-item {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      display: grid;
+      grid-template-columns: 1fr 180px;
+      gap: 1rem;
+    }
+
+    .edu-item:last-child { border-bottom: none; }
+
+    .edu-school {
+      font-family: var(--serif);
+      font-size: 1.3rem;
+    }
+
+    .edu-degree {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.3rem;
+    }
+
+    .edu-meta {
+      text-align: right;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 960px;
+      margin: 0 auto;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero > * {
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero > *:nth-child(1) { animation-delay: 0.05s; }
+    .hero > *:nth-child(2) { animation-delay: 0.15s; }
+    .hero > *:nth-child(3) { animation-delay: 0.25s; }
+    .hero > *:nth-child(4) { animation-delay: 0.35s; }
+
+    /* RESPONSIVE */
+    @media (max-width: 640px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { gap: 1.5rem; }
+      .hero, section { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .job, .edu-item { grid-template-columns: 1fr; }
+      .job-meta, .edu-meta { text-align: left; }
+      footer { padding: 1.5rem; flex-direction: column; gap: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#">Amey Arya</a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="https://drive.google.com/file/d/10V9JPH-_MSCWnG_0unbBVBdA8l9agpSp/view" target="_blank">Résumé</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <p class="hero-label">iOS Infrastructure Engineer</p>
+    <h1>Amey Arya</h1>
+    <p class="hero-bio">
+      iOS infrastructure engineer with experience across ads, performance optimization, and server-driven UI. Currently focused on mobile infrastructure at Snapchat. Previously at LinkedIn building frameworks and observability tooling at scale.
+    </p>
+    <div class="hero-contacts">
+      <a href="/cdn-cgi/l/email-protection#355458504c1b54474c540004755258545c591b565a58"><span class="__cf_email__" data-cfemail="345559514d1a55464d550105745359555d581a575b59">[email&#160;protected]</span></a>
+      <a href="tel:8579197853">(857) 919-7853</a>
+      <a href="https://linkedin.com/in/ameyarya" target="_blank">LinkedIn ↗</a>
+      <a href="https://github.com/ameyarya" target="_blank">GitHub ↗</a>
+    </div>
+  </div>
+
+  <section id="work">
+    <p class="section-label">Experience</p>
+
+    <div class="job">
+      <div>
+        <div class="job-company">Snapchat</div>
+        <div class="job-title">iOS Infrastructure Engineer · Ads</div>
+      </div>
+      <div class="job-meta">
+        Oct 2025 – Present<br/>Palo Alto, CA
+      </div>
+    </div>
+
+    <div class="job">
+      <div>
+        <div class="job-company">LinkedIn</div>
+        <div class="job-title">Senior Software Engineer</div>
+      </div>
+      <div class="job-meta">
+        Jan 2022 – Oct 2025<br/>Mountain View, CA
+      </div>
+    </div>
+
+    <div class="job">
+      <div>
+        <div class="job-company">Tata Consultancy Services</div>
+        <div class="job-title">Software Engineer</div>
+      </div>
+      <div class="job-meta">
+        Mar 2016 – Jul 2019<br/>Pune, India
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section-label">Projects</p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-name">Covey Town</div>
+        <div class="project-stack">React · TypeScript · Socket.io</div>
+        <div class="project-desc">Added real-time text chat to a multiplayer online game — public and private messaging with proximity detection on a 2D map.</div>
+        <div class="project-links">
+          <a href="https://hardcore-minsky-b004d2.netlify.app/" target="_blank">Live ↗</a>
+          <a href="https://github.com/mohammedowais2492/covey.town" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">Fantasy Premier League</div>
+        <div class="project-stack">React-Redux · Spring Boot · MySQL</div>
+        <div class="project-desc">Full-stack FPL emulator — build fantasy squads from real players, assign points based on real-world performance, and run weekly simulations.</div>
+        <div class="project-links">
+          <a href="http://fpl-react.herokuapp.com/" target="_blank">Live ↗</a>
+          <a href="https://github.com/ameyarya/Fantasy-Premier-League-FE" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">Medician</div>
+        <div class="project-stack">Android · Kotlin · Firebase</div>
+        <div class="project-desc">Medical needs app for Android with appointment booking, reminders, Doctors Near Me via Google Maps, and a COVID-19 country tracker.</div>
+        <div class="project-links">
+          <a href="https://play.google.com/store/apps/details?id=com.medician" target="_blank">Play Store ↗</a>
+          <a href="https://github.com/ameyarya/Medician" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">Mail Washer</div>
+        <div class="project-stack">Java · Naive Bayes · ML</div>
+        <div class="project-desc">Spam filter trained on 10K emails using Naive Bayes classification. 97.69% accuracy using a 2500-word feature dictionary.</div>
+        <div class="project-links">
+          <a href="https://github.com/ameyarya/SpamFilter" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">Scout Extension</div>
+        <div class="project-stack">JavaScript · Gulp.js</div>
+        <div class="project-desc">Chrome extension built at a Hackathon (Best Tech Project). Features deployment info, DOM highlighting, autofill, and JIRA routing.</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-name">White Board</div>
+        <div class="project-stack">Angular · Node.js · MongoDB</div>
+        <div class="project-desc">Course discussion platform for faculty and students — manage courses, register, and collaborate in topic threads.</div>
+        <div class="project-links">
+          <a href="https://boiling-ridge-17955.herokuapp.com/" target="_blank">Live ↗</a>
+          <a href="https://github.com/ameyarya/WhiteBoard-FE" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="education">
+    <p class="section-label">Education</p>
+
+    <div class="edu-item">
+      <div>
+        <div class="edu-school">Northeastern University</div>
+        <div class="edu-degree">M.S. Computer Science · Boston, MA</div>
+      </div>
+      <div class="edu-meta">Sep 2019 – Dec 2021</div>
+    </div>
+
+    <div class="edu-item">
+      <div>
+        <div class="edu-school">Samrat Ashok Technological Institute</div>
+        <div class="edu-degree">B.E. Computer Science · India</div>
+      </div>
+      <div class="edu-meta">Jun 2011 – Jun 2015</div>
+    </div>
+  </sec
