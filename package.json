@@ -1,0 +1,21 @@
+{
+  "name": "ameyarya-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:links": "LINKCHECK=1 playwright test links.network --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameyarya/ameyarya.github.io.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ameyarya/ameyarya.github.io/issues"
+  },
+  "homepage": "https://github.com/ameyarya/ameyarya.github.io#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  },
+  "private": "true"
+}
